@@ -62,17 +62,23 @@ html, body {
     line-height: 20px;
 }
 
-#menu{
-    padding: 30px 40px;
-    margin-right: 60px;
+#items{
+    width: 300px;
+    display: flex;
+    padding: 20px 30px;
+    flex-direction: column ;
 }
 
-#menu a{
+#items a{
     text-decoration: none;
+    padding: 5px;
     color: #000000;
+    border-top: 1px solid;
+    margin-top: 20px;
+    margin-right: 50px;
 }
 
-#menu a:hover{
+#items a:hover {
     text-decoration: underline;
 }
 
@@ -80,5 +86,5 @@ html, body {
     object-fit: cover;
     object-position: center;
     width: 100%;
-    height: 37%;
+    height: 36%;
 }
